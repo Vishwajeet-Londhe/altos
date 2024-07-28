@@ -1,0 +1,15 @@
+[package]
+name = "aptos"
+version = "1.0.0"
+authors = []
+
+[addresses]
+apt_add = '5b643228636c46a50f5d52ecce8ceb8ab1aabbe78710a7400bc4368af6e32ebf'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
